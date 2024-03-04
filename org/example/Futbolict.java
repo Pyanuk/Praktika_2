@@ -106,7 +106,7 @@ public class Futbolict {
         System.out.println("Введите имя футболиста для удаления:");
         String playerName = scanner.nextLine();
 
-        // Check if infoArray is not null and has elements
+        
         if (infoArray != null && infoArray.length > 0) {
             for (int i = 0; i < infoArray.length; i++) {
                 if (infoArray[i].getName().equals(playerName)) {
